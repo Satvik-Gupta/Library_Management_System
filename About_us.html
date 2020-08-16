@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>About Us</title>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="Homepage.css" rel="stylesheet">
+<link href="Homepage2.css" rel="stylesheet">
+<style>
+    body, h1, h2, h3, h4, h5 {
+        font-family: "Poppins", sans-serif
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .w3-half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-half img:hover {
+        opacity: 1
+    }
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" id="mySidebar"
+     style="z-index:3;width:300px;font-weight:bold;"><br>
+    <div class="w3-container">
+        <img src="Indian_Institute_of_Information_Technology,_Kota_Logo.png"
+             style="float: left; width: 100px;height: 60px;margin-right: 10px;">
+        <h3 class="w3-padding-64"><b>Indian Institute of Information Technology Kota</b></h3>
+    </div>
+    <div class="w3-bar-block">
+        <a class="w3-bar-item w3-button w3-hover-white" href="Homepage.html" onclick="w3_close()">Home Page</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Login.php" onclick="w3_close()">Login</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Collection_Dev.html" onclick="w3_close()">Collection
+            Development Division</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Elecronic_Dev.html" onclick="w3_close()">Electonic
+            Resources Division</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Important_Links.html" onclick="w3_close()">Important
+            Links</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="About_us.html" onclick="w3_close()">About Us</a>
+    </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a class="w3-button w3-red w3-margin-right" href="javascript:void(0)" onclick="w3_open()">☰</a>
+    <span>Indian Institute of Information Technology Kota</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" id="myOverlay" onclick="w3_close()" style="cursor:pointer"
+     title="close side menu"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" id="Starting" style="margin-top:80px">
+        <h1 class="w3-jumbo"><b>About Us</b></h1>
+    </div>
+
+    <!-- Heading 1 -->
+    <div class="w3-container" id="services" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Welcome to the Online Library</b></h1>
+        <hr class="w3-round" style="width:700px;border:6px solid red">
+        <p>A service dedicated to students of the Indian Institute Of Information Technology's learning community. We
+            provide online resources,
+            professional support and guidance to all our students whenever, and from wherever they have chosen to study.<br>
+            Institute has a reference section of the best titles relevant to various disciplines – CSE, ECE,
+            Mathematics, Humanity and Social Sciences, etc.
+        </p>
+    </div>
+
+    <!-- Heading 2 -->
+    <div class="w3-container" id="designers1" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Library Working Hours</b></h1>
+        <hr class="w3-round" style="width:325px;border:6px solid red">
+        <ul>
+            <li>Monday through Friday 09:00 – 23:00 hrs</li>
+            <li>Monday through Friday 09:00 – 01:00 hrs (during examination)</li>
+            <li>Saturdays / Sundays / Holidays 10:00 – 17:00 hrs</li>
+            <li>Saturdays / Sundays / Holidays 10:00 – 17:00 hrs</li>
+        </ul>
+    </div>
+
+    <!-- Heading 3 -->
+    <div class="w3-container" id="designers2" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Our Collection</b></h1>
+        <hr class="w3-round" style="width:325px;border:6px solid red">
+
+        <p>Library has developed an excellent collection of books, journals and non-book material in science,
+            engineering, technology, humanities, social sciences and management.
+            Collection building – a core activity of the library, has been undergoing a transformation. From print-only
+            environment where all our acquisitions were in hard copy format,
+            it has shifted to print-and-online and to online-only formats.
+            The library currently subscribes to over 80% of its journals in online only format and the trend is likely
+            to continue.
+            However, most of books, both text and reference, are still preferred in print-only.</p>
+    </div>
+
+    <!-- Heading 4 -->
+    <div class="w3-container" id="designers3" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>IT-Infrastructure</b></h1>
+        <hr class="w3-round" style="width:325px;border:6px solid red">
+        <p>
+            Central Library is a part of the institute-wide network built around a fiber optic Giga-bit Ethernet
+            backbone comprising of five routing switches.
+            The library is connected to the backbone through one of the routing switches. Institutes’s backbone in turn
+            is connected to 2.7 GBPS of Internet bandwidth. The library has 12 servers, 70 PCs and other accessories
+            adequate to cater to the needs of users. 25 PC are meant for users to access OPAC, databases, e-books,
+            e-journals and other e-resources. The reading area in the library have been WI-Fi enabled to provide
+            wireless access to the Internet.
+            Users are welcome to use their laptops in the library.
+        </p>
+    </div>
+
+
+    <!-- Heading 5 -->
+    <div class="w3-container" id="designers4" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Renovation Plans</b></h1>
+        <hr class="w3-round" style="width:325px;border:6px solid red">
+        <p>Library has planned for a major renovation of its building infrastructure and other facilities including
+            addition of a new floor.
+            The work has already started and is scheduled to be completed within a year.
+            The plan envisages complete face lift of its entrance and circulation area, with a beautiful lobby and
+            exhibit area,
+            reorganization of reference and periodicals reading halls, providing a variety of users spaces for
+            individual and group studies,
+            creation of digital knowledge lab and language lab, improved staff work areas and a large reading hall open
+            for 24×7.
+            When completed, the library will have the ambiance and facilities comparable with the best libraries.</p>
+    </div>
+    <!-- Heading 6 -->
+    <div class="w3-container" id="designers5" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Contact us</b></h1>
+        <hr class="w3-round" style="width:325px;border:6px solid red">
+        <ul>
+            <li> Centran Library <br>Indian Institute of Information Technology, Kota,
+                MNIT Campus, Jaipur, 302017
+            </li>
+            <li>0141-2715071</li>
+            <li>library@iiitkota.ac.in</li>
+        </ul>
+    </div>
+
+    <!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">
+    Powered by <a class="w3-hover-opacity" href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                  title="W3.CSS">w3.css</a></p></div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
+
+</body>
+</html>

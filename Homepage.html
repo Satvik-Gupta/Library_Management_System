@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Library Management System</title>
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="Homepage.css" rel="stylesheet">
+<link href="Homepage2.css" rel="stylesheet">
+<style>
+    body, h1, h2, h3, h4, h5 {
+        font-family: "Poppins", sans-serif
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .w3-half img {
+        margin-bottom: -6px;
+        margin-top: 16px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-half img:hover {
+        opacity: 1
+    }
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" id="mySidebar"
+     style="z-index:3;width:300px;font-weight:bold;"><br>
+    <div class="w3-container">
+        <img src="Indian_Institute_of_Information_Technology,_Kota_Logo.png"
+             style="float: left; width: 100px;height: 60px;margin-right: 10px;">
+        <h3 class="w3-padding-64"><b>Indian Institute of Information Technology Kota</b></h3>
+    </div>
+    <div class="w3-bar-block">
+        <a class="w3-bar-item w3-button w3-hover-white" href="Homepage.html" onclick="w3_close()">Home Page</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Login.php" onclick="w3_close()">Login</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Collection_Dev.html" onclick="w3_close()">Collection
+            Development Division</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Elecronic_Dev.html" onclick="w3_close()">Electonic
+            Resources Division</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="Important_Links.html" onclick="w3_close()">Important
+            Links</a>
+        <a class="w3-bar-item w3-button w3-hover-white" href="About_us.html" onclick="w3_close()">About Us</a>
+    </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+    <a class="w3-button w3-red w3-margin-right" href="javascript:void(0)" onclick="w3_open()">☰</a>
+    <span>Indian Institute of Information Technology Kota</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" id="myOverlay" onclick="w3_close()" style="cursor:pointer"
+     title="close side menu"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+    <!-- Header -->
+    <div class="w3-container" id="Starting" style="margin-top:80px">
+        <h1 class="w3-jumbo"><b>Library Management System</b></h1>
+    </div>
+
+    <!-- heading 1 -->
+    <div class="w3-container" id="services" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Welcome to the Online Library</b></h1>
+        <hr class="w3-round" style="width:700px;border:6px solid red">
+        <p>A service dedicated to students of the Indian Institute Of Information Technology's learning community. We
+            provide online resources,
+            professional support and guidance to all our students whenever, and from wherever they have chosen to study.<br>
+            Institute has a reference section of the best titles relevant to various disciplines – CSE, ECE,
+            Mathematics, Humanity and Social Sciences, etc.<br><br><br>
+        </p>
+    </div>
+
+
+    <!-- Announcements -->
+    <div class="w3-row-padding w3">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Announcement</b></h1>
+        <hr class="w3-round" style="width:275px;border:6px solid red">
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <img alt="Announcement1" src="Announcement1.jpg" style="width:100%">
+                <div class="w3-container">
+                    <h3>Library Foundation</h3>
+                    <p>Inauguration of new space for IIIT Kota Central Library at Prabha Bhavan MNIT Jaipur by
+                        Coordinator Professor Rakesh Jain and Registrar Shri Jai Narayan.
+                        Also in attendance IIIT Kota Faculty, Staff and Students.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <img alt="Announcement2" src="Announcement2.jpg" style="width:100%">
+                <div class="w3-container">
+                    <h3>New Arrivals: Display Books List</h3>
+                    <p> is a list of new materials received by the library in the last month, including books, CDs,
+                        videos, etc. Newspapers, journals, and other serials.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w3-col m4 w3-margin-bottom">
+            <div class="w3-light-grey">
+                <img alt="Announcement3" src="Announcement3.jpg" style="width:100%">
+                <div class="w3-container">
+                    <h3>Guidelines for Fair Use of e-Resources</h3>
+                    <p><br>These resources can be searched, browsed and material may be downloaded and printed as single
+                        copies of articles as is done in the case of printed library material.
+                        Downloading or printing of a complete book or an entire issue or a volume of one or more
+                        journals (called systematic downloading) is strictly prohibited.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Heading 2 -->
+    <div class="w3-container" id="designers" style="margin-top:75px">
+        <h1 class="w3-xxxlarge w3-text-red"><b>Library Updates</b></h1>
+        <hr class="w3-round" style="width:325px;border:6px solid red">
+        <ul>
+            <li>During Institutional holidays (except Saturday & Sunday) library hours will be 9:30 am to 6:00 pm</li>
+            <li>If you are not able to access any e-resources subscribed by Main Library, please mail to
+                libraryservices@iiitkota.ac.in
+            </li>
+            <li>All the users are requested to check their library account after every transaction.</li>
+            <li>If there is any discrepancy found, Please report it to the circulation section in the Main Library.</li>
+            <li>Mobile App (LSerach) to access the online Library Catalogue activated.</li>
+        </ul>
+    </div>
+
+
+    <!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">
+    Powered by <a class="w3-hover-opacity" href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                  title="W3.CSS">w3.css</a></p></div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+</script>
+
+</body>
+</html>
